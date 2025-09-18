@@ -2,6 +2,11 @@
 name = "go-installer"
 version = "0.2.0"
 edition = "2021"
+description = "A quick Go installer written in Rust."
+license = "MIT"
+repository = "https://github.com/c0d3h01/go-installer"
+homepage = "https://github.com/c0d3h01/go-installer"
+documentation = "https://docs.rs/go-installer"
 
 [dependencies]
 ureq = { version = "2.9.6", features = ["json"] }
